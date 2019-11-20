@@ -1,0 +1,7 @@
+<!--pages/exam/exam.wxml-->
+<view>
+  <button size="default" type="primary" bindtap="onOpinionClick">判断</button>
+  <button size="default" type="warn" bindtap="onSingleClick">单选</button>
+
+  <text class="version">@局部团体使用 1.0.0</text>
+</view>

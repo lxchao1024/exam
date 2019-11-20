@@ -1,0 +1,25 @@
+/* pages/exam/exam.wxss */
+button {
+  margin: 40rpx;
+}
+
+page {
+  padding-top: 200rpx;
+}
+
+view {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.version {
+  position: fixed;
+  left: 0;
+  width: 750rpx;
+  bottom: 30rpx;
+  color: lightgray;
+  text-align: center;
+  font-weight: initial;
+  font-size: 20rpx;
+}

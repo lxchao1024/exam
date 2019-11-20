@@ -1,0 +1,15 @@
+<swiper vertical="{{false}}" current="{{current}}" style="width:750rpx;height:{{height}}rpx;" bindchange="onChanged">
+  <block wx:for="{{danxuan}}" wx:key="index">
+    <swiper-item>
+      <view>
+        <text>标题. {{item.title}}</text>
+        <text style="font-size:40rpx;color:black;margin-top:30rpx;">{{item.content}}</text>
+        <text class="tv" data-index="{{index}}" bindtap="funA">A. {{item.A}}</text>
+        <text class="tv" data-index="{{index}}" bindtap="funB">B. {{item.B}}</text>
+        <text class="tv" data-index="{{index}}" bindtap="funC">C. {{item.C}}</text>
+        <text class="tv" data-index="{{index}}" bindtap="funD">D. {{item.D}}</text>
+        <text hidden="{{!isRight}}" style="font-size:50rpx;color:red;margin-top:30rpx;">正确答案：{{item.ans}}</text>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

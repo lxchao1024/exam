@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/exam/exam",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/exam/danxuan/danxuan",
+    "pages/exam/panduan/panduan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTitleText": "Hello，小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

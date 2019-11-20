@@ -1,0 +1,11 @@
+/* pages/exam/danxuan/danxuan.wxss */
+swiper-item view {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 30rpx;
+}
+
+.tv {
+  font-size:40rpx;color:black;margin-top:15rpx;
+}
