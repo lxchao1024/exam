@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/hello/hello",
     "pages/exam/exam",
     "pages/index/index",
     "pages/logs/logs",
@@ -13,5 +14,10 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "取一下地址"
+    }
+  }
 }

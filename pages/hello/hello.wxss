@@ -1,0 +1,45 @@
+/* pages/hello/hello.wxss */
+
+.view {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.mt {
+  margin: 20rpx;
+  font-size: 45rpx;
+  color: white;
+}
+
+.float-window {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  background: black;
+  width: 60rpx;
+  height: 300rpx;
+  z-index: 1000;
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.tab {
+  height: 100rpx;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.active {
+  background: red;
+}
+
+page {
+  background: green;
+}
+
+button {
+  margin: 30rpx;
+}

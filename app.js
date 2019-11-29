@@ -32,6 +32,13 @@ App({
         }
       }
     })
+
+    wx.getLocation({
+      success: function(res) {
+        console.log(res.latitude)
+        console.log(res.longitude)
+      },
+    })
   },
   globalData: {
     userInfo: null

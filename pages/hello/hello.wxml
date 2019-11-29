@@ -1,0 +1,21 @@
+<view class="float-window">
+  <text class="tab {{current==0 ? 'active' : ''}}" data-current="0" bindtap="onClick">a</text>
+  <text class="tab {{current==1 ? 'active' : ''}}" data-current="1" bindtap="onClick">b</text>
+  <text class="tab {{current==2 ? 'active' : ''}}" data-current="2" bindtap="onClick">c</text>
+</view>
+<swiper current="{{current}}" duration="300" bindchange="switchSwiper" style="background:green;height:1200rpx;">
+  <swiper-item style="background:green;" catchtouchmove='catchTouchMove'>
+    <scroll-view style="height:1200rpx;" bindscrolltolower='lower' scroll-y>
+      <view wx:for="{{list}}" wx:key="index">
+        <view>{{index + 1}}. a</view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+  <swiper-item style="background:purple;">
+    <button type="primary" bindtap="startTimer">{{mmm}}:{{sss}}</button>
+  </swiper-item>
+
+  <swiper-item style="background:green;">
+  </swiper-item>
+</swiper>
