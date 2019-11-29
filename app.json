@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/hello/hello",
     "pages/exam/exam",
     "pages/index/index",
     "pages/logs/logs",
+    "pages/hello/hello",
     "pages/exam/danxuan/danxuan",
     "pages/exam/panduan/panduan"
   ],
